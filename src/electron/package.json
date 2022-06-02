@@ -1,0 +1,22 @@
+{
+  "name": "cordova-sqlite-storage",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/sqlite3": "^3.1.8",
+    "ts": "^0.2.2"
+  },
+  "cordova": {
+    "serviceName": "SQLitePlugin"
+  },
+  "dependencies": {
+    "sqlite3": "^5.0.8"
+  }
+}

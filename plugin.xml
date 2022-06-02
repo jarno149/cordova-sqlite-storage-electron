@@ -103,6 +103,10 @@
         <framework src="src/windows/SQLite3-WinRT-sync/SQLite3/SQLite3.UWP.vcxproj" custom="true" type="projectReference" versions="10.*" />
     </platform>
 
+    <platform name="electron">
+        <framework src="src/electron" />
+    </platform>
+
 </plugin>
 
 <!-- vim: set expandtab : -->
