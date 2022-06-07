@@ -25,7 +25,9 @@ const openDatabase = ([options]: any) => {
         let db = openDatabases[databaseName] = closedDabases[databaseName]
         delete closedDabases[databaseName]
         try {
-            db.exec('ROLLBACK')
+            db.exec('ROLLBACK', (err: Error) => {
+                // Dont do anything   
+            })
         } catch(e) {
             return
         }
